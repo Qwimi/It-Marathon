@@ -9,6 +9,10 @@ let hiddenClass = 'hidden'
 let activeBlock
 let nextActiveBlock
 
+window.onload(
+    alert('a')
+)
+
 InitDots()
 addEventListener('scroll', CheckBlocks)
 
